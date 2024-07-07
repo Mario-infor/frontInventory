@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { MaterialModule } from './material.module';
 import { Router, RouterModule } from '@angular/router';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 
@@ -16,7 +17,8 @@ import { Router, RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ]
 })
 export class SharedModule { }
