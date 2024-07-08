@@ -1,0 +1,8 @@
+.category-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-conatiner > * {
+    width: 100%;
+}
